@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #000;
+  }
+  
+  header {
+    background-image: url(./image-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    margin-bottom: 8em;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30%;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero h1 {
+    border: 2px solid white;
+    padding: 2rem;
+    margin: 4rem auto;
+    max-width: 600px;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  
+  .intro {
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    gap: 2rem;
+  }
+ 
+  
+  .intro img {
+    width: 55%;
+    height: 75vh;
+  }
+  
+  .intro-text {
+    position: absolute;
+    width: 35%;
+    right: 15%;
+    top: 115%;
+    background-color: white;
+    padding:100px 0 0 100px;
+  }
+  .intro-text h2{
+    font-size: 3em;
+    margin-bottom: 0.8em;
+  }
+  .intro-text p{
+    line-height: 1.5em;
+  } 
+  .creations {
+    height: 50%;
+    margin: 8em 15%;
+    background: #fff;
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3em;
+  }
+  
+  .section-header h2 {
+    font-size: 1.5rem;
+  }
+  
+  .see-all {
+    background:white;
+    color:black;
+    border: none;
+    padding: 0.5rem 3rem;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .gallery figure img{
+    width: 34.25vh;
+    position: relative;
+  }
+  .gallery  p{
+    width: 6%;
+    font-size: 18px;
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 30px;
+
+    color: white;
+  }
+  .hero{
+    align-items: start;
+    margin-left:10% ;
+    padding: 20px;
+    width: 33%;
+  }
+  footer{
+    background-color: black;
+    padding: 20px 15%;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .asake{
+    color: white;
+  }
+  .fat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .fat a{
+    text-decoration: none;
+    color: white;
+  }
+  .fat ul{
+    display:flex ;
+    list-style: none;
+    gap: 2rem;
+  }
+  .balance{
+    margin-bottom: 10px;
+    width: 20px;
+  }
+  
+  
